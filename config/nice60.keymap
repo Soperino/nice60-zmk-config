@@ -48,10 +48,10 @@
 		//
 		fn2_layer{
 			bindings = <
-				&trans &trans         &trans         &trans          &trans           &trans &trans &trans &trans   &trans    &trans  &trans &trans &trans
-				&trans &mkp LCLK      &mmv MOVE_UP   &mkp RCLK       &mwh SCROLL_UP   &trans &trans &trans &trans   &kp PG_UP &trans  &trans &trans &trans
-				&trans &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &mwh SCROLL_DOWN &trans &trans &trans &kp HOME &kp PG_DN &kp END &trans &trans
-				&trans &trans         &trans         &trans          &trans           &trans &trans &trans &trans   &trans    &trans  &trans
+				&trans &trans         &trans         &trans          &trans           &trans &trans &trans &trans    &trans    &trans  &trans &trans &trans
+				&trans &mkp LCLK      &mmv MOVE_UP   &mkp RCLK       &mwh SCROLL_UP   &trans &trans &trans &kp PG_UP &trans    &trans  &trans &trans &trans
+				&trans &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &mwh SCROLL_DOWN &trans &trans &trans &kp HOME  &kp PG_DN &kp END &trans &trans
+				&trans &trans         &trans         &trans          &trans           &trans &trans &trans &trans    &trans    &trans  &trans
 				&trans &trans         &trans         &trans          &trans           &trans &trans &trans
 			>;
 		};
